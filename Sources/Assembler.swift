@@ -3,7 +3,7 @@
 //
 
 /// The `Assembler` provides a means to build a container via `Assembly` instances.
-public final class Assembler {
+open class Assembler {
     /// the container that each assembly will build its `Service` definitions into
     private let container: Container
 
